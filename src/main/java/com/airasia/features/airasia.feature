@@ -6,7 +6,6 @@ Scenario: Validate AirAsia Home Page
 	Then user is on Air Asia Home Page
 	Then click on from search field
 	Then click on to search field
-	Then click on depart date
 	Then click on one way
 	Then click on date
 	Then click on confirm button

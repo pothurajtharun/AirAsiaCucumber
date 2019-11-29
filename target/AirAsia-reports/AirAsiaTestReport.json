@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6090457524,
+              "duration": 7862584873,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 89825912,
+              "duration": 90181193,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 8952150245,
+              "duration": 12909780120,
               "status": "passed"
             },
             "line": 7,
@@ -48,22 +48,10 @@
           },
           {
             "result": {
-              "duration": 39870,
+              "duration": 513518080,
               "status": "passed"
             },
             "line": 8,
-            "name": "enter the from place",
-            "match": {
-              "location": "AirasiaHomePageStepDefinations.enter_the_from_place()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 46582,
-              "status": "passed"
-            },
-            "line": 9,
             "name": "click on to search field",
             "match": {
               "location": "AirasiaHomePageStepDefinations.click_on_to_search_field()"
@@ -72,34 +60,10 @@
           },
           {
             "result": {
-              "duration": 38292,
+              "duration": 245965182,
               "status": "passed"
             },
-            "line": 10,
-            "name": "enter the to place",
-            "match": {
-              "location": "AirasiaHomePageStepDefinations.enter_the_to_place()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 53687,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "click on depart date",
-            "match": {
-              "location": "AirasiaHomePageStepDefinations.click_on_depart_date()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 31976,
-              "status": "passed"
-            },
-            "line": 12,
+            "line": 9,
             "name": "click on one way",
             "match": {
               "location": "AirasiaHomePageStepDefinations.click_on_one_way()"
@@ -108,10 +72,10 @@
           },
           {
             "result": {
-              "duration": 35134,
+              "duration": 31976,
               "status": "passed"
             },
-            "line": 13,
+            "line": 10,
             "name": "click on date",
             "match": {
               "location": "AirasiaHomePageStepDefinations.click_on_date()"
@@ -120,10 +84,10 @@
           },
           {
             "result": {
-              "duration": 33160,
+              "duration": 342873440,
               "status": "passed"
             },
-            "line": 14,
+            "line": 11,
             "name": "click on confirm button",
             "match": {
               "location": "AirasiaHomePageStepDefinations.click_on_confirm_button()"
@@ -132,10 +96,10 @@
           },
           {
             "result": {
-              "duration": 35923,
+              "duration": 32765,
               "status": "passed"
             },
-            "line": 15,
+            "line": 12,
             "name": "Click on submit button",
             "match": {
               "location": "AirasiaHomePageStepDefinations.click_on_submit_button()"

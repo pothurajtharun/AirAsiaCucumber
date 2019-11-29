@@ -32,8 +32,9 @@ public class AirasiaHomePage extends TestBase{
 		@FindBy(xpath="//*[@class='ng-tns-c46-3 padding-less right-input modify-search']")
 		WebElement toSearchField;
 		
-		@FindBy(xpath="//*[@class='ng-tns-c46-3 padding-less right-input modify-search focus active']")
-		WebElement toSearchActive;
+		@FindBy(xpath="//input[@id='home-destination-autocomplete-heatmap']")
+		WebElement toSearchActive; 
+
 		
 		@FindBy(xpath="//li[@id='home-destination-autocomplete-heatmaplist-0']")
 		WebElement toDrop;
@@ -42,16 +43,16 @@ public class AirasiaHomePage extends TestBase{
 		@FindBy(xpath="//a[@class='input-daterange input-left from']")
 		WebElement departDate;
 
-		@FindBy(xpath="//a[@class='ng-tns-c48-4']")
+		@FindBy(xpath="//label[@class='ng-tns-c48-4' and text()='One way']")
 		WebElement oneWay;
 		
 		@FindBy(xpath="//a[@class='date ng-tns-c48-4 available ng-star-inserted startdate']")
 		WebElement dateSelect;
 		
-		@FindBy(xpath="//a[@class='calendar-button']")
+		@FindBy(xpath="//button[@class='calendar-button']")
 		WebElement confirmbutton;
 		
-		@FindBy(xpath="//a[@class='waves-effect waves-light']")
+		@FindBy(xpath="//button[@id='home-flight-search-airasia-button-inner-button-select-flight-heatmap']")
 		WebElement submitButton;
 		
 		
@@ -75,25 +76,26 @@ public class AirasiaHomePage extends TestBase{
 			fromDrop.click();
 		}
 		
-		public void toSearchField() {
-			toSearchField.click();
-			toSearchActive.sendKeys("PUNE");
-			toDrop.click();
+		public void oneWay() {
 			
-			
+			oneWay.click();
 		}
 		
+		public void toSearchField() {
+			//toSearchField.click();
+			toSearchActive.sendKeys("PUNE");
+			toDrop.click();
+		}
 		
+		public void confirmbutton() {
+			
+			confirmbutton.click();
+		}
 		
-		
-		
-//		public SigninPage signinbutton() throws InterruptedException {
-//			
-//			signinbutton.click();
-////			JavascriptExecutor js = (JavascriptExecutor)driver;
-////			js.executeScript("arguments[0].click();", signinbutton);
-//			return new SigninPage();
-//		}
+		public void submitButton() {
+			
+			submitButton.click();
+		}
 		
 		
 		
