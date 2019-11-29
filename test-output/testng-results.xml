@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22524" started-at="2019-11-29T16:55:38 IST" finished-at="2019-11-29T16:56:01 IST">
+  <suite name="Air Asia Cucumber Test Suites" duration-ms="21671" started-at="2019-11-30T00:01:35 IST" finished-at="2019-11-30T00:01:57 IST">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.airasia.Runner.TestRunner@799d4f69]" name="feature" class="com.airasia.Runner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.airasia.Runner.TestRunner@2d127a61]" name="feature" class="com.airasia.Runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="22524" started-at="2019-11-29T16:55:38 IST" finished-at="2019-11-29T16:56:01 IST">
+    <test name="Air Asia App Cucumber Test Cases" duration-ms="21671" started-at="2019-11-30T00:01:35 IST" finished-at="2019-11-30T00:01:57 IST">
       <class name="com.airasia.Runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.airasia.Runner.TestRunner@799d4f69]" name="setUpClass" is-config="true" duration-ms="288" started-at="2019-11-29T16:55:38 IST" finished-at="2019-11-29T16:55:38 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.airasia.Runner.TestRunner@2d127a61]" name="setUpClass" is-config="true" duration-ms="190" started-at="2019-11-30T00:01:35 IST" finished-at="2019-11-30T00:01:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.airasia.Runner.TestRunner@799d4f69]" name="feature" duration-ms="22074" started-at="2019-11-29T16:55:39 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-29T16:56:01 IST">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.airasia.Runner.TestRunner@2d127a61]" name="feature" duration-ms="21275" started-at="2019-11-30T00:01:35 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-30T00:01:57 IST">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.airasia.Runner.TestRunner@799d4f69]" name="tearDownClass" is-config="true" duration-ms="23" started-at="2019-11-29T16:56:01 IST" finished-at="2019-11-29T16:56:01 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.airasia.Runner.TestRunner@2d127a61]" name="tearDownClass" is-config="true" duration-ms="118" started-at="2019-11-30T00:01:57 IST" finished-at="2019-11-30T00:01:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.airasia.Runner.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Air Asia App Cucumber Test Cases -->
+  </suite> <!-- Air Asia Cucumber Test Suites -->
 </testng-results>

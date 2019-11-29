@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/38223/eclipse-workspace/AirAsia/src/main/java/com/airasia/features/airasia.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/tharu/git/AirAsiaCucumber/src/main/java/com/airasia/features/airasia.feature");
 formatter.feature({
   "line": 1,
   "name": "AirAsia Home Page Test",
@@ -54,60 +54,72 @@ formatter.step({
   "name": "Click on submit button",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 13,
+  "name": "Close the browser",
+  "keyword": "Then "
+});
 formatter.match({
   "location": "AirasiaHomePageStepDefinations.user_opens_browser()"
 });
 formatter.result({
-  "duration": 7862584873,
+  "duration": 13598786600,
   "status": "passed"
 });
 formatter.match({
   "location": "AirasiaHomePageStepDefinations.user_is_on_Air_Asia_Home_Page()"
 });
 formatter.result({
-  "duration": 90181193,
+  "duration": 49326200,
   "status": "passed"
 });
 formatter.match({
   "location": "AirasiaHomePageStepDefinations.click_on_from_search_field()"
 });
 formatter.result({
-  "duration": 12909780120,
+  "duration": 6356585700,
   "status": "passed"
 });
 formatter.match({
   "location": "AirasiaHomePageStepDefinations.click_on_to_search_field()"
 });
 formatter.result({
-  "duration": 513518080,
+  "duration": 381841700,
   "status": "passed"
 });
 formatter.match({
   "location": "AirasiaHomePageStepDefinations.click_on_one_way()"
 });
 formatter.result({
-  "duration": 245965182,
+  "duration": 182796900,
   "status": "passed"
 });
 formatter.match({
   "location": "AirasiaHomePageStepDefinations.click_on_date()"
 });
 formatter.result({
-  "duration": 31976,
+  "duration": 23300,
   "status": "passed"
 });
 formatter.match({
   "location": "AirasiaHomePageStepDefinations.click_on_confirm_button()"
 });
 formatter.result({
-  "duration": 342873440,
+  "duration": 142255800,
   "status": "passed"
 });
 formatter.match({
   "location": "AirasiaHomePageStepDefinations.click_on_submit_button()"
 });
 formatter.result({
-  "duration": 32765,
+  "duration": 263486900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AirasiaHomePageStepDefinations.Close_the_browser()"
+});
+formatter.result({
+  "duration": 703815600,
   "status": "passed"
 });
 });

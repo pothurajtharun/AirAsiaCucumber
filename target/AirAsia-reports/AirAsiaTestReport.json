@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7862584873,
+              "duration": 13598786600,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 90181193,
+              "duration": 49326200,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 12909780120,
+              "duration": 6356585700,
               "status": "passed"
             },
             "line": 7,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 513518080,
+              "duration": 381841700,
               "status": "passed"
             },
             "line": 8,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 245965182,
+              "duration": 182796900,
               "status": "passed"
             },
             "line": 9,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 31976,
+              "duration": 23300,
               "status": "passed"
             },
             "line": 10,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 342873440,
+              "duration": 142255800,
               "status": "passed"
             },
             "line": 11,
@@ -96,13 +96,25 @@
           },
           {
             "result": {
-              "duration": 32765,
+              "duration": 263486900,
               "status": "passed"
             },
             "line": 12,
             "name": "Click on submit button",
             "match": {
               "location": "AirasiaHomePageStepDefinations.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 703815600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the browser",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.Close_the_browser()"
             },
             "keyword": "Then "
           }
@@ -113,6 +125,6 @@
     "description": "",
     "id": "airasia-home-page-test",
     "keyword": "Feature",
-    "uri": "C:/Users/38223/eclipse-workspace/AirAsia/src/main/java/com/airasia/features/airasia.feature"
+    "uri": "C:/Users/tharu/git/AirAsiaCucumber/src/main/java/com/airasia/features/airasia.feature"
   }
 ]

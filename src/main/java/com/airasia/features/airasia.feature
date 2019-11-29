@@ -10,3 +10,4 @@ Scenario: Validate AirAsia Home Page
 	Then click on date
 	Then click on confirm button
 	Then Click on submit button
+	Then Close the browser

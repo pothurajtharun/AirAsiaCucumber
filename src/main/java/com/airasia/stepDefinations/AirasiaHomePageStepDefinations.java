@@ -59,5 +59,11 @@ public class AirasiaHomePageStepDefinations extends TestBase {
 	   
 		airasiahomepage.submitButton();
 	}
+	
+	@Then("^Close the browser$")
+	public void Close_the_browser() throws Throwable {
+	   
+		driver.quit();
+	}
 
 }

@@ -12,7 +12,8 @@ import cucumber.api.testng.TestNGCucumberRunner;
 
 
 	@CucumberOptions(
-			features = "C:\\Users\\38223\\eclipse-workspace\\AirAsia\\src\\main\\java\\com\\airasia\\features\\airasia.feature", //the path of the feature files
+			//C:\\Users\\38223\\eclipse-workspace\\AirAsia\\src\\main\\java\\com\\airasia\\features\\airasia.feature
+			features = "C:\\Users\\tharu\\git\\AirAsiaCucumber\\src\\main\\java\\com\\airasia\\features\\airasia.feature", //the path of the feature files
 			glue={"com/airasia/stepDefinations"}, //the path of the step definition files
 			format= {
 					"pretty",
