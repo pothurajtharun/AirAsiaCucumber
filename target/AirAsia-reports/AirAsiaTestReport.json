@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate AirAsia Home Page",
+        "description": "",
+        "id": "airasia-home-page-test;validate-airasia-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6090457524,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89825912,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on Air Asia Home Page",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.user_is_on_Air_Asia_Home_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8952150245,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on from search field",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.click_on_from_search_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39870,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the from place",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.enter_the_from_place()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46582,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on to search field",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.click_on_to_search_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38292,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the to place",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.enter_the_to_place()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53687,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on depart date",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.click_on_depart_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31976,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on one way",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.click_on_one_way()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35134,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on date",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.click_on_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33160,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on confirm button",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.click_on_confirm_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35923,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on submit button",
+            "match": {
+              "location": "AirasiaHomePageStepDefinations.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "AirAsia Home Page Test",
+    "description": "",
+    "id": "airasia-home-page-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/38223/eclipse-workspace/AirAsia/src/main/java/com/airasia/features/airasia.feature"
+  }
+]
